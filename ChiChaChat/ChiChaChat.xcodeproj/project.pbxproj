@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6702F2A118F5774500184AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6702F2A018F5774500184AC1 /* Foundation.framework */; };
+		6702F2A318F5774500184AC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6702F2A218F5774500184AC1 /* CoreGraphics.framework */; };
+		6702F2A518F5774500184AC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6702F2A418F5774500184AC1 /* UIKit.framework */; };
+		6702F2AB18F5774500184AC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6702F2A918F5774500184AC1 /* InfoPlist.strings */; };
+		6702F2AD18F5774500184AC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F2AC18F5774500184AC1 /* main.m */; };
+		6702F2B118F5774500184AC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F2B018F5774500184AC1 /* AppDelegate.m */; };
+		6702F2B418F5774500184AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6702F2B218F5774500184AC1 /* Main.storyboard */; };
+		6702F2B718F5774500184AC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F2B618F5774500184AC1 /* ViewController.m */; };
+		6702F2B918F5774500184AC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6702F2B818F5774500184AC1 /* Images.xcassets */; };
+		6702F2C018F5774500184AC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6702F2BF18F5774500184AC1 /* XCTest.framework */; };
+		6702F2C118F5774500184AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6702F2A018F5774500184AC1 /* Foundation.framework */; };
+		6702F2C218F5774500184AC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6702F2A418F5774500184AC1 /* UIKit.framework */; };
+		6702F2CA18F5774500184AC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6702F2C818F5774500184AC1 /* InfoPlist.strings */; };
+		6702F2CC18F5774500184AC1 /* ChiChaChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6702F2CB18F5774500184AC1 /* ChiChaChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6702F2C318F5774500184AC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6702F29518F5774500184AC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6702F29C18F5774500184AC1;
+			remoteInfo = ChiChaChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6702F29D18F5774500184AC1 /* ChiChaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiChaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6702F2A018F5774500184AC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6702F2A218F5774500184AC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6702F2A418F5774500184AC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6702F2A818F5774500184AC1 /* ChiChaChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChiChaChat-Info.plist"; sourceTree = "<group>"; };
+		6702F2AA18F5774500184AC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6702F2AC18F5774500184AC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6702F2AE18F5774500184AC1 /* ChiChaChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChiChaChat-Prefix.pch"; sourceTree = "<group>"; };
+		6702F2AF18F5774500184AC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6702F2B018F5774500184AC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6702F2B318F5774500184AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6702F2B518F5774500184AC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6702F2B618F5774500184AC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6702F2B818F5774500184AC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6702F2BE18F5774500184AC1 /* ChiChaChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiChaChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6702F2BF18F5774500184AC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6702F2C718F5774500184AC1 /* ChiChaChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChiChaChatTests-Info.plist"; sourceTree = "<group>"; };
+		6702F2C918F5774500184AC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6702F2CB18F5774500184AC1 /* ChiChaChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChiChaChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6702F29A18F5774500184AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702F2A318F5774500184AC1 /* CoreGraphics.framework in Frameworks */,
+				6702F2A518F5774500184AC1 /* UIKit.framework in Frameworks */,
+				6702F2A118F5774500184AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6702F2BB18F5774500184AC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702F2C018F5774500184AC1 /* XCTest.framework in Frameworks */,
+				6702F2C218F5774500184AC1 /* UIKit.framework in Frameworks */,
+				6702F2C118F5774500184AC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6702F29418F5774500184AC1 = {
+			isa = PBXGroup;
+			children = (
+				6702F2A618F5774500184AC1 /* ChiChaChat */,
+				6702F2C518F5774500184AC1 /* ChiChaChatTests */,
+				6702F29F18F5774500184AC1 /* Frameworks */,
+				6702F29E18F5774500184AC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6702F29E18F5774500184AC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6702F29D18F5774500184AC1 /* ChiChaChat.app */,
+				6702F2BE18F5774500184AC1 /* ChiChaChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6702F29F18F5774500184AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6702F2A018F5774500184AC1 /* Foundation.framework */,
+				6702F2A218F5774500184AC1 /* CoreGraphics.framework */,
+				6702F2A418F5774500184AC1 /* UIKit.framework */,
+				6702F2BF18F5774500184AC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6702F2A618F5774500184AC1 /* ChiChaChat */ = {
+			isa = PBXGroup;
+			children = (
+				6702F2AF18F5774500184AC1 /* AppDelegate.h */,
+				6702F2B018F5774500184AC1 /* AppDelegate.m */,
+				6702F2B218F5774500184AC1 /* Main.storyboard */,
+				6702F2B518F5774500184AC1 /* ViewController.h */,
+				6702F2B618F5774500184AC1 /* ViewController.m */,
+				6702F2B818F5774500184AC1 /* Images.xcassets */,
+				6702F2A718F5774500184AC1 /* Supporting Files */,
+			);
+			path = ChiChaChat;
+			sourceTree = "<group>";
+		};
+		6702F2A718F5774500184AC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6702F2A818F5774500184AC1 /* ChiChaChat-Info.plist */,
+				6702F2A918F5774500184AC1 /* InfoPlist.strings */,
+				6702F2AC18F5774500184AC1 /* main.m */,
+				6702F2AE18F5774500184AC1 /* ChiChaChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6702F2C518F5774500184AC1 /* ChiChaChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6702F2CB18F5774500184AC1 /* ChiChaChatTests.m */,
+				6702F2C618F5774500184AC1 /* Supporting Files */,
+			);
+			path = ChiChaChatTests;
+			sourceTree = "<group>";
+		};
+		6702F2C618F5774500184AC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6702F2C718F5774500184AC1 /* ChiChaChatTests-Info.plist */,
+				6702F2C818F5774500184AC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6702F29C18F5774500184AC1 /* ChiChaChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6702F2CF18F5774500184AC1 /* Build configuration list for PBXNativeTarget "ChiChaChat" */;
+			buildPhases = (
+				6702F29918F5774500184AC1 /* Sources */,
+				6702F29A18F5774500184AC1 /* Frameworks */,
+				6702F29B18F5774500184AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChiChaChat;
+			productName = ChiChaChat;
+			productReference = 6702F29D18F5774500184AC1 /* ChiChaChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6702F2BD18F5774500184AC1 /* ChiChaChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6702F2D218F5774500184AC1 /* Build configuration list for PBXNativeTarget "ChiChaChatTests" */;
+			buildPhases = (
+				6702F2BA18F5774500184AC1 /* Sources */,
+				6702F2BB18F5774500184AC1 /* Frameworks */,
+				6702F2BC18F5774500184AC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6702F2C418F5774500184AC1 /* PBXTargetDependency */,
+			);
+			name = ChiChaChatTests;
+			productName = ChiChaChatTests;
+			productReference = 6702F2BE18F5774500184AC1 /* ChiChaChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6702F29518F5774500184AC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Do Thi Tuyet Ngan";
+				TargetAttributes = {
+					6702F2BD18F5774500184AC1 = {
+						TestTargetID = 6702F29C18F5774500184AC1;
+					};
+				};
+			};
+			buildConfigurationList = 6702F29818F5774500184AC1 /* Build configuration list for PBXProject "ChiChaChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6702F29418F5774500184AC1;
+			productRefGroup = 6702F29E18F5774500184AC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6702F29C18F5774500184AC1 /* ChiChaChat */,
+				6702F2BD18F5774500184AC1 /* ChiChaChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6702F29B18F5774500184AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702F2B918F5774500184AC1 /* Images.xcassets in Resources */,
+				6702F2AB18F5774500184AC1 /* InfoPlist.strings in Resources */,
+				6702F2B418F5774500184AC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6702F2BC18F5774500184AC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702F2CA18F5774500184AC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6702F29918F5774500184AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702F2B718F5774500184AC1 /* ViewController.m in Sources */,
+				6702F2B118F5774500184AC1 /* AppDelegate.m in Sources */,
+				6702F2AD18F5774500184AC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6702F2BA18F5774500184AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6702F2CC18F5774500184AC1 /* ChiChaChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6702F2C418F5774500184AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6702F29C18F5774500184AC1 /* ChiChaChat */;
+			targetProxy = 6702F2C318F5774500184AC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6702F2A918F5774500184AC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6702F2AA18F5774500184AC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6702F2B218F5774500184AC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6702F2B318F5774500184AC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6702F2C818F5774500184AC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6702F2C918F5774500184AC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6702F2CD18F5774500184AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6702F2CE18F5774500184AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6702F2D018F5774500184AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChiChaChat/ChiChaChat-Prefix.pch";
+				INFOPLIST_FILE = "ChiChaChat/ChiChaChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6702F2D118F5774500184AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChiChaChat/ChiChaChat-Prefix.pch";
+				INFOPLIST_FILE = "ChiChaChat/ChiChaChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6702F2D318F5774500184AC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChiChaChat.app/ChiChaChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChiChaChat/ChiChaChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChiChaChatTests/ChiChaChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6702F2D418F5774500184AC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChiChaChat.app/ChiChaChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChiChaChat/ChiChaChat-Prefix.pch";
+				INFOPLIST_FILE = "ChiChaChatTests/ChiChaChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6702F29818F5774500184AC1 /* Build configuration list for PBXProject "ChiChaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6702F2CD18F5774500184AC1 /* Debug */,
+				6702F2CE18F5774500184AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6702F2CF18F5774500184AC1 /* Build configuration list for PBXNativeTarget "ChiChaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6702F2D018F5774500184AC1 /* Debug */,
+				6702F2D118F5774500184AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6702F2D218F5774500184AC1 /* Build configuration list for PBXNativeTarget "ChiChaChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6702F2D318F5774500184AC1 /* Debug */,
+				6702F2D418F5774500184AC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6702F29518F5774500184AC1 /* Project object */;
+}
